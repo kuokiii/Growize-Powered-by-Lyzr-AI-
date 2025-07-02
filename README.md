@@ -123,3 +123,9 @@ git push origin feature-name
 
 Happy growing! 🌱  
 Made with focus and frustration turned into fuel.
+
+## ⚡ Powered by Lyzr AI
+
+[![Lyzr Logo](https://media.licdn.com/dms/image/v2/D560BAQEe3SDOTBE1hQ/company-logo_200_200/company-logo_200_200/0/1735975302199/lyzr_platform_logo?e=2147483647&v=beta&t=5Qylgfjy05Fm9L7XvkOKFKWFip5Yvk5q3WddHWx4NMM)](https://lyzr.ai)
+
+**Powered by [Lyzr AI](https://www.lyzr.ai)**
