@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #f5f5f0;
+    color: #455a64;
+  }
+}
+
+@layer components {
+  .gradient-bg {
+    background: linear-gradient(135deg, #26a69a 0%, #d1c4e9 50%, #c8e6c9 100%);
+  }
+
+  .card-shadow {
+    box-shadow: 0 10px 25px -5px rgba(69, 90, 100, 0.1), 0 10px 10px -5px rgba(69, 90, 100, 0.04);
+  }
+
+  .hover-lift {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+
+  .hover-lift:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 20px 40px -10px rgba(69, 90, 100, 0.15);
+  }
+}
