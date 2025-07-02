@@ -42,74 +42,58 @@ I once spent days wrestling with a startup idea, unsure where to pivot or how to
 - Node.js (v14+ recommended)  
 - Git (for cloning)
 
-🚀 Growize Agent
-🔧 Installation
-bash
-Copy
-Edit
+# 🚀 Growize Agent
+
+## 🔧 Installation
+
+```bash
 git clone https://github.com/yourusername/growize-agent.git
 cd growize-agent
 npm install
 npm start
-💬 Usage
-Open the chat interface
 
-Input your context
-Example:
-Help my startup grow: E-commerce, low traffic
+## 💬 Usage
 
-Review the response
-You'll get follow-up questions, pivot ideas, and decision-making frameworks instantly.
+1. **Open the chat interface**
+2. **Input your context**  
+   _Example:_  
+   `Help my startup grow: E-commerce, low traffic`
+3. **Review the response**  
+   You'll get follow-up questions, pivot ideas, and decision-making frameworks instantly.
 
-🧪 My Testing Journey
+---
+
+## 🧪 My Testing Journey
+
 I tested Growize with a mock e-commerce startup. I started with:
 
-Input: Help my startup grow: Low traffic
-
-Response: “What’s your main product?”
-
-Pivot: “Try social media ads”
-
-Framework: “Test 30 days, track clicks”
+- **Input**: `Help my startup grow: Low traffic`  
+- **Response**: “What’s your main product?”  
+- **Pivot**: “Try social media ads”  
+- **Framework**: “Test 30 days, track clicks”
 
 Later, I entered:
 
-Input: Sales flat
+- **Input**: `Sales flat`  
+- **Response**: “Pivot: Add loyalty program”
 
-Response: “Pivot: Add loyalty program”
+I learned that **specificity matters** — vague entries like `Business struggling` led to prompts like:  
+> “Please specify your industry.”
 
-I learned that specificity matters — vague entries like Business struggling led to prompts like:
+That made the tool feel smart, and it **cut my planning time by hours**.
 
-“Please specify your industry.”
+- **Lesson**: Clear inputs yield better insights  
+- **Win**: Gave me a solid growth roadmap
 
-That made the tool feel smart, and it cut my planning time by hours.
+---
 
-Lesson: Clear inputs yield better insights
+## 🛠️ Contributing
 
-Win: Gave me a solid growth roadmap
-
-🛠️ Contributing
 Love to see your twists on this! Fork the repo, experiment, and share your ideas.
 
-📌 Steps to Contribute
-Fork this repository
+### 📌 Steps to Contribute
 
-Create a new branch
-
-bash
-Copy
-Edit
-git checkout -b feature-name
-Commit your changes
-
-bash
-Copy
-Edit
-git commit -m "Add feature"
-Push your branch
-
-bash
-Copy
-Edit
-git push origin feature-name
-Open a pull request on GitHub
+1. **Fork this repository**
+2. **Create a new branch**
+   ```bash
+   git checkout -b feature-name
